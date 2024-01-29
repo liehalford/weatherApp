@@ -1,0 +1,91 @@
+body {
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: rgba(80, 80, 80, 0.2);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.form input {
+  padding: 10px;
+  border-radius: 10px;
+  border-color: rgba(255, 140, 0, 0.607);
+}
+.form .button {
+  background-color: rgba(255, 140, 0, 0.607);
+  margin-left: 4px;
+  color: rgb(63, 63, 136);
+  transition: all 200ms ease-in-out;
+}
+.form .button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+h1 {
+  color: rgba(240, 135, 7, 0.607);
+  position: relative;
+  left: 20px;
+  font-size: 40px;
+}
+
+.percentage {
+  position: relative;
+  left: 20px;
+}
+
+span {
+  color: rgb(63, 63, 136);
+}
+h2 {
+  font-size: 45px;
+  color: rgba(240, 135, 7, 0.607);
+  position: relative;
+  right: -320px;
+  top: -130px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+
+  padding: 0;
+  margin-top: 10px;
+}
+li {
+  list-style: none;
+  position: relative;
+  top: -60px;
+  padding-left: 30px;
+  margin: 0 auto;
+}
+ul .first {
+  padding: 0;
+}
+li span {
+  font-weight: bold;
+  color: rgb(63, 63, 136);
+}
+
+footer p {
+  position: relative;
+  top: 0px;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(63, 63, 136);
+}
+footer a:hover {
+  cursor: pointer;
+  color: blue;
+}
